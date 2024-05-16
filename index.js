@@ -16,7 +16,10 @@
 
 // console.warn(result)
 
-const colors = require('colors');
-console.log(colors.green("Hello in Green color"));
-console.log("Hello in Blue color".blue);
+//colorful console:::
+// const colors = require('colors');
+// console.log(colors.green("Hello in Green color"));
+// console.log("Hello in Blue color".blue);
 //added nodemon module for quick running
+
+console.log(process.argv[3]);
