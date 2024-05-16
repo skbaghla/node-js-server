@@ -18,4 +18,5 @@
 
 const colors = require('colors');
 console.log(colors.green("Hello in Green color"));
-console.log("Hello in Red color".red);
+console.log("Hello in Blue color".blue);
+//added nodemon module for quick running
