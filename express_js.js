@@ -3,6 +3,9 @@ const express = require('express');
 const app = express();
 
 app.get('',(req,resp)=>{
+    console.log("data sent by browser:",req.query.name)
+
+    // to run : hit : http://localhost:5200/?name=sanjeev
     resp.send('Hello, this is Portfolio');
 })
 
