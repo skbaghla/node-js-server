@@ -25,7 +25,7 @@ const filePath = `${dirPath}/apple.txt`;
 
 //-----deleting the record:
 
-fs.unlinkSync(`${dirPath}/fruit.txt`);
+// fs.unlinkSync(`${dirPath}/fruit.txt`);
 
 // // for (i = 0; i < 5; i++) {
 // // // fs.writeFileSync(`Hello ${i}.txt`, "A Simple Text File.");

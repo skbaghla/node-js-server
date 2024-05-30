@@ -24,6 +24,7 @@
   "homepage": "https://github.com/skbaghla/node-Js#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "express": "^4.19.2",
     "simple-node-logger": "^21.8.12"
   }
 }
